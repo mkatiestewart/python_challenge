@@ -1,0 +1,6 @@
+Election Results
+----------------------------
+Total_Votes: 0
+Candidate: Charles Casper Stockham
+Percentage Votes: []
+WINNER!!: + winner
