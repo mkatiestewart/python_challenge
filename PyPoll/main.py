@@ -30,12 +30,13 @@ candidate = vote_list[0]
 last_count = 0
 
 
-print ("Election results :")
-print(total_votes)
-print(candidate)
-print(percentage_votes)
-print(total_votes)
-print(winner)
+print("--------------------------")
+print("Election results")
+print("--------------------------")
+print(f"Total_Votes: {len(total_votes)}")
+print(f"Candidate: {candidate}")
+print(f"Percentage Votes: {percentage_votes}")
+print(f"WINNER!!: {winner}")
 
 
 analysis = open("election_results.txt","w")
@@ -45,6 +46,7 @@ analysis.write("----------------------------\n")
 analysis.write(f"Total_Votes: {len(total_votes)}\n")
 analysis.write(f"Candidate: {candidate}\n")
 analysis.write(f"Percentage Votes: {percentage_votes}\n")
-analysis.write(f"WINNER!!: + winner\n")
+analysis.write(f"WINNER!!: {winner}\n")
 
 analysis.close()
+
